@@ -1,119 +1,183 @@
-# E-Portal Sekolah — UI/UX Design (Figma)
+# 🎓 E-Portal Sekolah
 
-Desain UI/UX modern & ramah pendidikan — portal yang menyatukan siswa, guru, dan admin.
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,100:06B6D4&height=220&section=header&text=E-Portal%20Sekolah&fontSize=45&fontColor=ffffff&animation=fadeIn" />
+</p>
 
-[![Figma](https://img.shields.io/badge/Figma-Design-black?logo=figma)](https://www.figma.com/design/anxHez2cB4nGAV0CaPMYfX/E-Portal-Sekolah?node-id=0-1&t=cv7qKhcr4SgOTqU7-1) [![Platform](https://img.shields.io/badge/Platform-Responsive-blue)](#)
+<p align="center">
+  <b>Modern School Management Portal UI/UX Design</b><br>
+  Menghubungkan Siswa, Guru, dan Admin dalam satu platform digital yang modern.
+</p>
 
-Ringkasan singkat: akses cepat ke nilai, absensi, pengumuman, dan komunikasi antar pengguna dengan desain yang fokus pada keterbacaan dan kemudahan penggunaan.
-
-__Highlight__
-- Tujuan: menyederhanakan akses informasi akademik dan komunikasi.
-- Platform: Desktop & Mobile (responsive).
-- Pendekatan: user-centered + aksesibilitas.
-
-__Quick Links__
-- Figma file: https://www.figma.com/design/anxHez2cB4nGAV0CaPMYfX/E-Portal-Sekolah?node-id=0-1&t=cv7qKhcr4SgOTqU7-1
-- Screenshots: lihat folder `assets/screenshots/` (admin / guru / siswa)
-
-## Daftar Isi
-- [Demo & Preview](#demo--preview)
-- [Fitur Utama](#fitur-utama)
-- [Komponen & Sistem Desain](#komponen--sistem-desain)
-- [User Flows (Singkat)](#user-flows-singkat)
-- [Cara Export / Handoff](#cara-export--handoff)
-- [Gallery (Screenshots)](#gallery-screenshots)
-- [Catatan Teknis & Tips Efek](#catatan-teknis--tips-efek)
-- [Contributing & Contact](#contributing--contact)
+<p align="center">
+  <a href="https://www.figma.com/design/anxHez2cB4nGAV0CaPMYfX/E-Portal-Sekolah">
+    <img src="https://img.shields.io/badge/View%20Figma-Design-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
+  </a>
+</p>
 
 ---
 
-## Demo & Preview
+## ✨ Overview
 
-Jika ingin efek interaktif saat scroll: GitHub README tidak mendukung custom CSS/JS. Alternatif yang menarik:
+E-Portal Sekolah adalah desain UI/UX berbasis Figma yang dirancang untuk meningkatkan pengalaman pengguna dalam mengakses informasi akademik, komunikasi sekolah, dan manajemen data pendidikan.
 
-- Gunakan animated GIF atau SVG (bisa terlihat seperti efek saat scroll).
-- Gunakan GitHub Pages (static site) untuk efek scroll penuh (parallax, reveal, dll.).
+### 🎯 Goals
 
-Contoh demo (placeholder gambar — ganti dengan GIF jika ada):
-
-![Demo GIF](assets/screenshots/admin/Dasboard.png)
+* Mempermudah akses informasi akademik
+* Meningkatkan komunikasi antar pengguna
+* Menyediakan pengalaman yang modern & responsif
+* Mendukung aksesibilitas pengguna
 
 ---
 
-## Fitur Utama
-- Dashboard personal (ringkasan tugas, pengumuman, jadwal)
-- Modul Akademik (nilai, absensi, materi)
-- Notifikasi & Pesan antar pengguna
-- Profil & Pengaturan
+## 🛠 Design Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=figma,github,vscode" />
+</p>
+
+---
+
+## 📊 Project Information
+
+| Item             | Detail               |
+| ---------------- | -------------------- |
+| 🎨 Design Tool   | Figma                |
+| 📱 Platform      | Mobile & Desktop     |
+| 👥 User Role     | Admin, Guru, Siswa   |
+| 📐 Design System | 8px Grid             |
+| ♿ Accessibility  | User-Centered Design |
+| 📅 Status        | Completed            |
+
+---
+
+## 🚀 Main Features
+
+### 👨‍🎓 Student Portal
+
+* Dashboard Akademik
+* Nilai & Rapor
+* Pengumuman Sekolah
+* Informasi Magang
+* Profil Siswa
+
+### 👨‍🏫 Teacher Portal
+
+* Dashboard Guru
+* Input Nilai
+* Jurnal Mengajar
+* Pengumuman Kelas
+
+### 👨‍💼 Admin Portal
+
+* Manajemen Kelas
+* Manajemen Mata Pelajaran
+* Kelola Pengguna
+* Publikasi Pengumuman
+
+---
+
+## 🎨 Design System
 
 <details>
-<summary><strong>Komponen & Sistem Desain</strong></summary>
+<summary><b>Click to Expand</b></summary>
 
-- Grid & Layout: 8px baseline grid, breakpoint mobile/tablet/desktop
-- Warna & Tipografi: palet ramah pendidikan, fokus keterbacaan
-- Komponen: header, sidebar responsif, kartu info, tombol aksi, form, modal
+### Typography
+
+* Poppins
+* Inter
+
+### Color Palette
+
+| Color     | Hex     |
+| --------- | ------- |
+| Primary   | #4F46E5 |
+| Secondary | #06B6D4 |
+| Success   | #10B981 |
+| Warning   | #F59E0B |
+| Danger    | #EF4444 |
+
+### Components
+
+* Sidebar Navigation
+* Header
+* Cards
+* Buttons
+* Modal
+* Form Elements
+* Notification Panel
 
 </details>
 
-## User Flows (Singkat)
-- Siswa: Login → Dashboard → Lihat Pengumuman → Detail → Simpan/Tindak Lanjut
-- Guru: Login → Dashboard → Input Nilai → Lihat Jurnal → Kirim Pengumuman
-- Admin: Login → Kelola Kelas/Mapel → Publikasi Pengumuman
+---
+
+## 📸 Preview
+
+### Admin Dashboard
+
+![Admin Dashboard](assets/screenshots/admin/Dasboard.png)
+
+### Teacher Dashboard
+
+![Teacher Dashboard](assets/screenshots/guru/Dasboard.png)
+
+### Student Dashboard
+
+![Student Dashboard](assets/screenshots/siswa/DashboardSiswa-Aktif.png)
 
 ---
 
-## Cara Export / Handoff
-1. Buka file Figma (link di atas).
-2. Pilih frame / screen untuk export.
-3. Inspect panel → salin gaya / spacing / ukuran.
-4. Export: PNG @2x untuk screenshot, SVG untuk ikon.
+## 🔄 User Flow
 
-Jika ingin otomatis: gunakan `figma_export.py` di repo untuk mengekspor semua frame ke `assets/screenshots/`.
+```text
+Siswa
+Login
+   ↓
+Dashboard
+   ↓
+Pengumuman
+   ↓
+Detail Informasi
 
-```powershell
-$env:FIGMA_TOKEN='YOUR_FIGMA_TOKEN'
-python figma_export.py --file-key anxHez2cB4nGAV0CaPMYfX
+Guru
+Login
+   ↓
+Dashboard
+   ↓
+Input Nilai
+   ↓
+Publikasi
+
+Admin
+Login
+   ↓
+Kelola Data
+   ↓
+Publikasi Pengumuman
 ```
 
 ---
 
-## Gallery (Screenshots)
-Berikut beberapa tampilan utama (klik untuk melihat ukuran penuh):
+## 🔗 Quick Access
 
-### Admin
-- Dashboard: ![Admin Dashboard](assets/screenshots/admin/Dasboard.png)
-- Login: ![Admin Login](assets/screenshots/admin/Login.png)
-- Profil: ![Admin Profil](assets/screenshots/admin/Profil.png)
+### 🎨 Figma Design
 
-### Guru
-- Dashboard: ![Guru Dashboard](assets/screenshots/guru/Dasboard.png)
-- Lihat Pengumuman: ![Guru Pengumuman](assets/screenshots/guru/Lihat%20Pengumuman.png)
-- Nilai Siswa: ![Guru Nilai](assets/screenshots/guru/Nilai%20Siswa.png)
-
-### Siswa
-- Dashboard Aktif: ![Siswa Dashboard](assets/screenshots/siswa/DashboardSiswa-Aktif.png)
-- Pengumuman: ![Siswa Pengumuman](assets/screenshots/siswa/Pengumuman.png)
-- Lowongan/Magang: ![Siswa Lowongan](assets/screenshots/siswa/Lowongan.png)
-
-_Catatan_: beberapa file memiliki spasi: jika gambar tidak muncul, bisa rename ke format tanpa spasi.
+https://www.figma.com/design/anxHez2cB4nGAV0CaPMYfX/E-Portal-Sekolah
 
 ---
 
-## Catatan Teknis & Tips Efek
-- GitHub README tidak mendukung custom JS/CSS — gunakan GIF/SVG untuk meniru efek.
-- Untuk pengalaman penuh (scroll animations, parallax), deploy halaman statis (GitHub Pages / Netlify) menggunakan HTML/CSS/JS.
+## 👨‍💻 Author
 
-Contoh pendekatan ringan:
+**Mil**
 
-- Buat short animated GIF (reveal on scroll) dari prototype Figma.
-- Sisipkan GIF di README untuk impresi dinamis.
+UI/UX Designer • Information Systems Graduate
 
 ---
 
-## Contributing & Contact
-- Ingin lebih banyak gambar, penjabaran UX, atau versi bahasa Inggris? Saya bantu.
-- Pembuat desain: (Isi nama Anda di sini)
-- Email: (Isi email Anda di sini)
+<p align="center">
+  ⭐ If you like this project, give it a star!
+</p>
 
-Jika ingin saya tambahkan seluruh gallery (semua file) ke README atau buat versi halaman GitHub Pages, jawab yes dan saya akan bantu susun.
-
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,100:4F46E5&height=120&section=footer"/>
+</p>
