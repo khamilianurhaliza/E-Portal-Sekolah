@@ -1,14 +1,3 @@
-
-# E-Portal Sekolah — UI/UX Design (Figma)
-
-Desain UI/UX modern untuk portal sekolah yang responsif, intuitif, dan ramah pengguna. Proyek ini berfokus pada pengalaman siswa, orang tua, dan tenaga kependidikan dengan alur yang sederhana dan visual yang bersih.
-
-Figma file: https://www.figma.com/design/anxHez2cB4nGAV0CaPMYfX/E-Portal-Sekolah?node-id=0-1&t=cv7qKhcr4SgOTqU7-1
-
-**Highlight**
-- **Tujuan**: Menyederhanakan akses informasi akademik, pengumuman, dan komunikasi antar pemangku kepentingan sekolah.
-- **Platform**: Desktop & mobile (responsive design).
-- **Pendekatan**: User-centered design dengan fokus pada aksesibilitas dan konsistensi visual.
 # E-Portal Sekolah — UI/UX Design (Figma)
 
 Desain UI/UX modern & ramah pendidikan — portal yang menyatukan siswa, guru, dan admin.
