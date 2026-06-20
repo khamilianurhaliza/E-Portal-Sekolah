@@ -6,7 +6,7 @@
 
 <p align="center">
   <b>Modern School Management Portal UI/UX Design</b><br>
-  Menghubungkan Siswa, Guru, dan Admin dalam satu platform digital yang modern.
+  Menghubungkan Siswa, Guru, dan Admin dalam satu platform digital yang modern dan keren.
 </p>
 
 <p align="center">
