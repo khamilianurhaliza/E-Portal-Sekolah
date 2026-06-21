@@ -155,15 +155,6 @@ Kelola Data
    ↓
 Publikasi Pengumuman
 ```
-
----
-
-## 🔗 Quick Access
-
-### 🎨 Figma Design
-
-https://www.figma.com/design/anxHez2cB4nGAV0CaPMYfX/E-Portal-Sekolah
-
 ---
 
 ## 👨‍💻 Author
